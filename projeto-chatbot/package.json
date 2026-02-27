@@ -1,0 +1,20 @@
+{
+  "name": "projeto-chatbot",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "concurrently \"node src/server.js\" \"node open.js\""
+  },
+  "dependencies": {
+    "concurrently": "^9.2.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "node-fetch": "^3.3.2",
+    "open": "^11.0.0",
+    "openai": "^6.25.0",
+    "pg": "^8.19.0"
+  }
+}
