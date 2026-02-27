@@ -34,6 +34,7 @@ O projeto utiliza a API do OpenRouter para gerar respostas inteligentes e pode s
 
 ## Estrutura do Projeto
 
+```text
 projeto-chatbot/
 │
 ├── src/
@@ -47,6 +48,7 @@ projeto-chatbot/
 ├── .env                 # Variáveis de ambiente
 ├── open.js              # Script para abrir o navegador
 └── package.json         # Dependências e scripts
+```
 
 ---
 
